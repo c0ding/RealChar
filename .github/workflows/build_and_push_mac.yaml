@@ -1,4 +1,4 @@
-name: Build and Push Docker Ubuntu
+name: Build and Push Docker mac
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-13
 
     steps:
     - name: Set up Docker Buildx
